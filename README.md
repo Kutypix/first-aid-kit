@@ -1,6 +1,6 @@
 # first-aid-kit
 
-In order to try go to:
+All connectionts to DB were testy locally on xampp. In order to try go to:
 http://mkutypa.cba.pl/index.html
 
 Users: 
@@ -13,3 +13,5 @@ Users:
 3) user 2
    u2@gmail.com
    1234
+
+mkutypa.sql contains DBs.
