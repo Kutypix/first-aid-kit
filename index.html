@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>...::: First Aid Kit :::...</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="icon" type="imge/x-icon" href="img/favicon/pharmacy.png">
+</head>
+<body>    
+    <div id="head">
+        <p id="title">Home Page</p>
+    </div>
+    <div id="clock">
+        <div id="hours" class="time">00</div>
+        <div class="dots">:</div>
+        <div id="minutes" class="time">00</div>
+        <div class="dots">:</div>
+        <div id="seconds" class="time">00</div>
+    </div>
+    <div id="cont">
+        <form method="post" action="script/php/login.php">
+            <fieldset>
+                <legend>In order to proceed sign in</legend><br>
+                <label for="log">Login :</label>
+                <p class="inp">
+                    <input id="log" type="text" name="login" placeholder="ex. johnpaul2@gmail.com">
+                </p><br>
+                <label for="pass">Password :</label>
+                <p class="inp">
+                    <input id="pass" type="password" name="haslo">
+                </p>
+                <p id="log_bts">
+                    <input class="bt" type="submit" value="Sign in">
+                    <input class="bt" type="reset" value="Clear">
+                    <a href="script/php/register.php">
+                        <input class="bt" type="button" value="Sign up">
+                    </a> 
+                </p>
+            </fieldset>
+        </form>
+    </div>
+    <div id="foot">
+        <div id="end">
+            <p>Site was created by Michał Kutypa</p>
+        </div>
+    </div>
+</body>
+<script>
+    var date = new Date()
+    if(date.getHours()<10)
+        document.getElementById('hours').innerHTML = '0' + date.getHours()
+    else
+        document.getElementById('hours').innerHTML = date.getHours()
+    if(date.getMinutes()<10)
+        document.getElementById('minutes').innerHTML = '0' + date.getMinutes()
+    else
+        document.getElementById('minutes').innerHTML = date.getMinutes()
+    if(date.getSeconds()<10)
+        document.getElementById('seconds').innerHTML = '0' + date.getSeconds()
+    else
+        document.getElementById('seconds').innerHTML = date.getSeconds()
+    console.log('0' + date.getHours())
+</script>
+<script src="script/js/clock.js"></script>    
+</html>

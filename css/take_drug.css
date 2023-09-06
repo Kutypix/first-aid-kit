@@ -1,0 +1,9 @@
+#info{
+    width: 400px;
+    margin: auto auto 20px auto;
+    font-size: 22px;
+    text-align: center;
+}
+.msg{
+    color: rgb(58, 129, 10);
+}

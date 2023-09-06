@@ -1,0 +1,59 @@
+#add_drug{
+    width: 400px;
+    margin: auto auto 20px auto;
+}
+legend{
+    margin: auto;
+}
+a{
+    display: block;
+    width: 160px;
+    text-decoration: none;
+    margin: auto;
+}
+.bt{
+    font-family: Mirza;
+    width: 160px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgb(248, 146, 109);
+    vertical-align: middle;
+    display: table-cell;
+    transition: background .2s ease-in-out;
+}
+.outer_bt{
+    margin: auto auto 14px auto; 
+    width: 162px;
+}
+.bt:hover{
+    background-color: rgb(245, 177, 153);;
+}
+input[type=text],input[type=number],input[type=date]{
+    width: 200px;
+
+    float: right;
+}
+textarea{
+    width: 200px;
+    height: 125px;
+    float: right;
+    max-width: 200px;
+    max-height: 125px;
+    min-height: 125px;
+    min-width: 200px;
+}
+.alert1{
+    text-align: center;
+    color: rgb(58, 129, 10);
+    font-size: 18px;
+}
+.alert2{
+    text-align: center;
+    color: rgb(187, 23, 23);
+    font-size: 18px;
+}

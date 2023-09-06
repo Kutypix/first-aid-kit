@@ -1,0 +1,68 @@
+#title{
+    margin: 20px auto 20px auto;
+}
+#foot{
+    width: 100%;
+    text-align: center;
+}
+#end{
+    margin: 10px auto 10px auto;
+}
+#cont{
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+legend{
+    margin: auto;
+}
+a{
+    display: block;
+    width: 160px;
+    text-decoration: none;
+    margin: auto;
+}
+#back{
+    width: 160px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgb(248, 146, 109);
+    vertical-align: middle;
+    display: table-cell;
+    transition: 1s;
+}
+#back:hover,.bt:hover{
+   background-color: rgb(245, 184, 163);
+}
+.bt{
+    width: 140px;
+    display: list-item;
+    cursor: pointer;
+    margin: 5px auto 5px auto;
+    background-color: rgb(248, 146, 109);
+    border: 1px solid black;
+    border-radius: 70px;
+    font-family: Mirza;
+    font-size: 16px;
+    transition: 1s;
+}
+.inp{
+    float: right;
+    width: 200px;
+    margin: 0 50px 0 0;
+}
+.alert1{
+    text-align: center;
+    color: rgb(58, 129, 10);
+    font-size: 18px;
+}
+.alert2{
+    text-align: center;
+    color: rgb(187, 23, 23);
+    font-size: 18px;
+}

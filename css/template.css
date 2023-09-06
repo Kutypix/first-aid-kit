@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Mirza;
+    src: url(../font/Mirza/Mirza-Regular.ttf);
+}
+html,body{
+    width: 100%;
+    background-color: antiquewhite;
+    font-family: Mirza;
+    margin:0;
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none; 
+              user-select: none;
+}
+#head{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}

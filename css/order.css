@@ -1,0 +1,48 @@
+a{
+    display: block;
+    width: 160px;
+    text-decoration: none;
+    margin: auto;
+}
+.bt{
+    font-family: Mirza;
+    width: 160px;
+    height: 30px;
+    font-size: 20px;
+    margin: auto auto 20px auto;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgb(248, 146, 109);
+    vertical-align: middle;
+    display: list-item;
+    list-style: none;
+    transition: background .2s ease-in-out;
+}
+.outer_bt{
+    margin: auto auto 14px auto; 
+    width: 162px;
+}
+.bt:hover{
+    background-color: rgb(245, 177, 153);;
+}
+table{
+    margin: auto auto 20px auto;
+    border: 1px solid black;
+    font-size: 20px;
+}
+th{
+    border: 1px solid black; 
+    padding: 6px;
+}
+.alert1{
+    text-align: center;
+    color: rgb(58, 129, 10);
+    font-size: 18px;
+}
+.alert2{
+    text-align: center;
+    color: rgb(187, 23, 23);
+    font-size: 18px;
+}
